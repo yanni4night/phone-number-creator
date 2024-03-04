@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>手机号生成器</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="neutralinoapp">
+      <h1 class="title">手机号生成器</h1>
+      <form class="options-form" id="form">
+        <label>数量：<input type="number" step="1" min="1" max="10000" name="count" value="100"/></label>
+        <button type="submit">生成</button>
+        <button type="button" id="copy">拷贝</button>
+      </form>
+      <textarea name="result" id="result" cols="30" rows="10"></textarea>
+    </div>
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+    <script src="js/neutralino.js"></script>
+    <!-- Your app's source files -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
